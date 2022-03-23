@@ -1,6 +1,6 @@
 # Theme Park Server
 
-![Theme parkimage](/assests/GTY.gif)
+![Theme parkimage](/assets/GTY.gif)
 
 ## Description
 ***
@@ -10,7 +10,7 @@ This repo will house the database for our theme park project. It will include a 
 ## Entity Relation Diagram
 ***
 
-![ERD](/assests/ERD.jpg) 
+![ERD](/assets/Theme%20Park%20ERD.jpg) 
 
 ## Task
 ***
