@@ -10,4 +10,5 @@ This repo will house the database for our theme park project. It will include a 
 ## Entity Relation Diagram
 ***
 
-![ERD]() 
+![ERD](/ERD.jpg) 
+
