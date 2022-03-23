@@ -12,3 +12,11 @@ This repo will house the database for our theme park project. It will include a 
 
 ![ERD](/assests/ERD.jpg) 
 
+## Task
+***
+- [ x ] Assign group memebers their roles
+- [ ] Design the database with relationships
+- [ ] Create boiler plate for database
+- [ ] Create Schema
+- [ ] Create Model
+- [ ] Create Controllers
