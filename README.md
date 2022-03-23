@@ -14,7 +14,7 @@ This repo will house the database for our theme park project. It will include a 
 
 ## Task
 ***
-- [ x ] Assign group memebers their roles
+- [x] Assign group memebers their roles
 - [ ] Design the database with relationships
 - [ ] Create boiler plate for database
 - [ ] Create Schema
