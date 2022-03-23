@@ -1,5 +1,13 @@
 # Theme Park Server
 
-## Description
+![Theme parkimage](https://i.gifer.com/GTY.gif)
 
-This repo will house the Backend of our project.
+## Description
+***
+
+This repo will house the database for our theme park project. It will include a MongoDB database with a a Mongoose/Express backend.
+
+## Entity Relation Diagram
+***
+
+![ERD]() 
