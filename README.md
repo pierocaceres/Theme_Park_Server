@@ -4,7 +4,7 @@
 
 ## Description
 
-This repo will house the database for our theme park project. It will include a MongoDB database with a Mongoose/Express backend.
+This repo will house the database for our theme park project. It will include a MongoDB database with a Mongoose/Express backend. The repository for the theme park client is found [here.](https://github.com/pierocaceres/Theme_Park_Client) 
 
 ## Group Members
 
@@ -18,7 +18,7 @@ Member: Shane Brooks
 
 ## Entity Relation Diagram
 
-![ERD](/assets/Theme%20Park%20ERD.jpg) 
+![ERD](/assets/ThemePark%20ERD.jpg) 
 
 ## Website Layout
 
