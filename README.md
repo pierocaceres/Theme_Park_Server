@@ -20,7 +20,9 @@ Member: Shane Brooks
 
 ![ERD](/assets/Theme%20Park%20ERD.jpg) 
 
+## Website Layout
 
+![Website Layout](/assets/Website%20Layout.jpg)
 
 ## Tasks
 
@@ -33,6 +35,7 @@ Member: Shane Brooks
 ```sh
 npm init -y
 npm install mongoose
+npm install express --> Ask Jeremy
 npm install --save-dev chance
 ```
 - [ ] Server Middleware: body-parser & morgan
