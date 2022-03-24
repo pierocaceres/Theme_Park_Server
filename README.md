@@ -60,11 +60,11 @@ npm i nodemon
 
 ### Frontend Task
 
-- [ ] Build the React Frontend inside the project directory
+- [x] Build the React Frontend inside the project directory
 ```sh
 npx create-react-app client
 ```
-- [ ] Set up a `.gitignore` file that prevents your application from pushing up `node_modules`
+- [x] Set up a `.gitignore` file that prevents your application from pushing up `node_modules`
 ```sh
 touch .gitignore
 echo "node_modules" >> .gitignore
