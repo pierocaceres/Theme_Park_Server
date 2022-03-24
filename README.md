@@ -34,7 +34,7 @@ npm install mongoose
 npm install --save-dev chance
 ```
 - [ ] Create boiler plate for ./db/index.js
-      - PORT = 3001
+    - PORT = 3001
 - [ ] Create Schema --> ./models/model1.js
 - [ ] Create Model --> ./models/index.js
 - [ ] Create Controllers --> ./controllers/controller1.js
