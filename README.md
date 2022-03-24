@@ -52,7 +52,7 @@ npm i nodemon
 - [x] Create Schema --> ./models/model1.js
 - [x] Create Model --> ./models/index.js
 - [x] Create Seed --> /seed/{models1.js models2.js}
-- [ ] Connect Server to MongoDb --> server.js
+- [x] Connect Server to MongoDb --> server.js
 - [ ] Create Controllers --> ./controllers/controller1.js
 - [ ] Create Routes --> routes/index.js
 - [ ] Deploy the MongoDB Database with Atlas
