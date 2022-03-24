@@ -7,7 +7,8 @@ const ThemePark = new Schema(
         location: { type: String, require: true},
         image: { type: String, require: true},
         url: {type: String, require: false}
-    }
+    },
+    { timestamps: true}
 )
 
 module.exports = ThemePark
