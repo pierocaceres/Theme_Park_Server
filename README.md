@@ -20,6 +20,8 @@ Member: Shane Brooks
 
 ![ERD](/assets/Theme%20Park%20ERD.jpg) 
 
+
+
 ## Tasks
 
 - [x] Assign group members their roles
@@ -32,6 +34,11 @@ Member: Shane Brooks
 npm init -y
 npm install mongoose
 npm install --save-dev chance
+```
+- [ ] Server Middleware: body-parser & morgan
+```sh
+npm i body-parser
+npm install morgan
 ```
 - [ ] Create boiler plate for ./db/index.js
     - PORT = 3001
