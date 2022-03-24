@@ -9,7 +9,8 @@ const RollerCoaster = new Schema(
         length: { type: String, require: false},
         type: { type: Array, require: false },
         image: { type: String, require: true },
-        location: {type: Schema.Types.ObjectId, ref: 'themeParks'}
+        location: {type: Schema.Types.ObjectId, ref: 'themeParks'},
+        comment: {type: Array, require: false}
     },
     { timestamps: true }
 )
