@@ -97,7 +97,7 @@ const main = async () => {
             max_speed: '50 mph',
             length: '3884 ft',
             type: ['Thrill Ride', 'Big Drops'],
-            image: '',
+            image: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.a4NRH8TVw7Datc7SpSkDEwHaFj%26pid%3DApi&f=1',
             location: animalKingdom[0]._id
         }
     ]
