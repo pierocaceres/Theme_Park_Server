@@ -20,11 +20,28 @@ Member: Shane Brooks
 
 ![ERD](/assets/Theme%20Park%20ERD.jpg) 
 
-## Task
+## Group Task
 
 - [x] Assign group memebers their roles
 - [x] Design the database with relationships
-- [ ] Create boiler plate for database
-- [ ] Create Schema
-- [ ] Create Model
-- [ ] Create Controllers
+
+#### Backend Task
+
+- [ ] Initialize directory with the following commands
+```
+npm init -y
+npm install mongoose
+npm install --save-dev chance
+```
+- [ ] Create boiler plate for ./db/index.js
+- [ ] Create Schema --> ./models/model1.js
+- [ ] Create Model --> ./models/index.js
+- [ ] Create Controllers --> ./controllers/controller1.js
+
+#### Frontend Task
+
+- [ ] React Router Setup with the following commands. [Lesson on React Router](https://github.com/SEI-R-2-22/u2_lesson_react_router)
+```
+npm install react-router-dom
+```
+- [ ] 
