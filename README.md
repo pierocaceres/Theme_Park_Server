@@ -9,8 +9,11 @@ This repo will house the database for our theme park project. It will include a 
 ## Group Members
 
 Team Leader: Piero Caceres
+
 Member: David Wu
+
 Member: Joshua Garinger
+
 Member: Shane Brooks
 
 ## Entity Relation Diagram
