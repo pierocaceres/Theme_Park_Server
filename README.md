@@ -43,7 +43,7 @@ npm i body-parser
 npm install morgan
 npm i cors
 npm i express
-npm nodemon
+npm i nodemon
 ```
 
 - [ ] gitignore /node_modules .DS_Store
