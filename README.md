@@ -53,8 +53,8 @@ npm i nodemon
 - [x] Create Model --> ./models/index.js
 - [x] Create Seed --> /seed/{models1.js models2.js}
 - [x] Connect Server to MongoDb --> server.js
-- [ ] Create Controllers --> ./controllers/controller1.js
-- [ ] Create Routes --> routes/index.js
+- [x] Create Controllers --> ./controllers/controller1.js
+- [x] Create Routes --> routes/index.js
 - [ ] Deploy the MongoDB Database with Atlas
 - [ ] Deploy the Express Server with Heroku
 
