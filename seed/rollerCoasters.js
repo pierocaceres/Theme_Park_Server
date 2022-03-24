@@ -35,7 +35,7 @@ const main = async () => {
             description: "Space Mountain is an outer space-themed, indoor roller coaster in Tomorrowland located at Walt Disney World's Magic Kingdom theme park in Bay Lake, Florida, near Orlando.",    
             min_height: '44 in',
             max_speed: '27 mph',
-            length: '',
+            length: '3186 ft',
             type: ['Thrill Ride', 'Big Drops', 'Dark'],
             image: 'https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/630/354/75/dam/wdpro-assets/parks-and-tickets/attractions/magic-kingdom/space-mountain/space-mountain-00.jpg?1559892391044',
             location: magicKingdom[0]._id
