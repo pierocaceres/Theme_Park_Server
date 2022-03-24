@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 mongoose
-    .connect('mongodb://127.0.0.1:27017/tasksDatabase')
+    .connect('mongodb://127.0.0.1:27017/themeParkDatabase')
     .then(() => {
         console.log('Successfully connected to MongoDb')
     })
@@ -11,6 +11,6 @@ mongoose
 
     mongoose.set('debug', true)
 
-    const db = mongoose.connect
+    const db = mongoose.connection
 
     module.exports = db
