@@ -1,7 +1,7 @@
-const db = require('..db')
+const db = require('../db')
 const { ThemePark } = require('../models')
 
-db.on('error', console.error.bind(console, 'MongoDb coonnection error:'))
+db.on('error', console.error.bind(console, 'MongoDB connection error:'))
 
 const main = async () => {
     const themeParks = [

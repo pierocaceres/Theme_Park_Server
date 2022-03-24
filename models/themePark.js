@@ -10,4 +10,4 @@ const ThemePark = new Schema(
     }
 )
 
-modeule.exports = ThemePark
+module.exports = ThemePark

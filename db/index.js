@@ -11,6 +11,6 @@ mongoose
 
     mongoose.set('debug', true)
 
-    const db = mongoose.connect
+    const db = mongoose.connection
 
     module.exports = db
