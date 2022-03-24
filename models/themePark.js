@@ -6,7 +6,8 @@ const ThemePark = new Schema(
         description: { type: String, require: true},
         location: { type: String, require: true},
         image: { type: String, require: true},
-        url: {type: String, require: false}
+        url: {type: String, require: false},
+        comment: {type: Array, required: false}
     },
     { timestamps: true}
 )
