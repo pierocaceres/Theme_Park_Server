@@ -35,21 +35,28 @@ Member: Shane Brooks
 ```sh
 npm init -y
 npm install mongoose
-npm install express --> Ask Jeremy
 npm install --save-dev chance
 ```
 - [ ] Server Middleware: body-parser & morgan
 ```sh
 npm i body-parser
 npm install morgan
+npm i cors
+npm i express
+npm nodemon
 ```
+
+- [ ] gitignore /node_modules .DS_Store
 - [ ] Create boiler plate for ./db/index.js
     - PORT = 3001
 - [ ] Create Schema --> ./models/model1.js
 - [ ] Create Model --> ./models/index.js
+- [ ] Create Seed --> /seed/{models1.js models2.js}
+- [ ] Connect Server to MongoDb --> server.js
 - [ ] Create Controllers --> ./controllers/controller1.js
+- [ ] Create Routes --> routes/index.js
 - [ ] Deploy the MongoDB Database with Atlas
-- [ ] Deplo the Express Server with Heroku
+- [ ] Deploy the Express Server with Heroku
 
 ### Frontend Task
 
