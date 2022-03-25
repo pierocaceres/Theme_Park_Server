@@ -21,14 +21,12 @@ function App() {
 
   const getThemePark = async () => {
     const result = await axios.get(`${BASE_URL}/theme-parks`)
-    console.log(result.data.themeParks)
     setThemeParks(result.data.themeParks)   
     //setThemeParks(TPData)
   }
 
   const getRollerCoaster = async () => {
     const result = await axios.get(`${BASE_URL}/roller-coasters`)
-    console.log(result.data.rollerCoasters)
     setRollerCoaster(result.data.rollerCoasters)
     // setRollerCoaster(RCData)
   }
@@ -50,7 +48,7 @@ function App() {
           <Route path="/" element={<Home themeParks={themeParks} rollerCoasters={rollerCoasters} />}/>
           {/* <Route path="/rollercoasters" element={<RollerCoaster rollerCoasters={rollerCoasters}/>}/> */}
           <Route path="/rollercoasters" element={<RollerCoastersPage rollerCoasters={rollerCoasters}/>} />
-          <Route path="/themeparks/:name" element={ <ThemeParkPage themeParks = {themeParks} />} />
+          <Route path="/themeparks/:name" element={ <ThemeParkPage themeParks = {themeParks} rollerCoasters={rollerCoasters}/>} />
           <Route path="/rollercoasters/:name" element={ <RollerCoasterPage rollerCoasters={rollerCoasters} />
           } />
         </Routes> 

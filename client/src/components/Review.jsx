@@ -9,13 +9,16 @@ function Review(props) {
     const [reviews, setReviews] = useState([])
     const [sendReviews, setSendReviews] = useState({comment: [...reviews]})
     const [userReview, setUserReview] = useState('')
-    const getReviews = () => {
+
+    const getReviews = async () => {
         if (userReview !== '') {
-            let newReviews =  [...reviews, userReview]
-            setReviews(newReviews)
-            setSendReviews({comment: [...reviews]})
+            //let newReviews =  [...reviews, userReview]
+            let newReviews = [...sendReviews.comment, userReview]
+            console.log(newReviews)
+            setReviews(reviews => [...reviews, newReviews])
+            setSendReviews({comment: [...newReviews]})
             console.log(sendReviews)
-            axios.put(`${BASE_URL}/theme-parks/${props.id}`, sendReviews)
+            await axios.post(`${BASE_URL}/theme-parks/${props.id}`, sendReviews)
         }
     }
 
@@ -26,7 +29,7 @@ function Review(props) {
     return (
         <div>
             <input type="text" name="review" placeholder="Leave your review" value={userReview} onChange={(event) => handleReview(event)}/>
-            <button onClick={() => getReviews()}>Submit</button>
+            <button onClick={getReviews}>Submit</button>
         </div>
     );
 }

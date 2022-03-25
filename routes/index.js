@@ -12,7 +12,7 @@ router.get('/theme-parks/:id', controllers.getThemeParkbyId)
 
 router.get('/roller-coasters/:id', controllers.getRollerCoasterbyId)
 
-router.put('/theme-parks/:id', controllers.updateThemePark)
+router.post('/theme-parks/:id', controllers.updateThemePark)
 
 router.put('/roller-coasters/:id', controllers.updateRollerCoaster)
 

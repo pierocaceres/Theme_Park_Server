@@ -47,6 +47,7 @@ const getRollerCoasterbyId = async (req, res) => {
 const updateThemePark = async (req, res) => {
     try {
         const { id } = req.params
+        console.log(req.params)
         const themePark = await ThemePark.findByIdAndUpdate(id, req.body, {new: true})
             if (!themePark) {
                 res.status(500).send('Theme park not found!')
