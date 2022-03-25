@@ -37,7 +37,7 @@ npm init -y
 npm install mongoose
 npm install --save-dev chance
 ```
-- [ ] Server Middleware: body-parser & morgan
+- [x] Server Middleware: body-parser & morgan
 ```sh
 npm i body-parser
 npm install morgan
@@ -69,17 +69,17 @@ npx create-react-app client
 touch .gitignore
 echo "node_modules" >> .gitignore
 ```
-- [ ] React Router Setup with the following commands. [Lesson on React Router](https://github.com/SEI-R-2-22/u2_lesson_react_router)
+- [x] React Router Setup with the following commands. [Lesson on React Router](https://github.com/SEI-R-2-22/u2_lesson_react_router)
 ```sh
 npm install react-router-dom
 ```
-- [ ] Install Axios
+- [x] Install Axios
 ```sh
 npm install axios
 ```
-- [ ] Configure application to use React Router. Done in index.js
-- [ ] Set up Routes on App.js
-- [ ] When using Axios, import axios
+- [x] Configure application to use React Router. Done in index.js
+- [x] Set up Routes on App.js
+- [x] When using Axios, import axios
 ```sh
 import axios from 'axios'
 ```
