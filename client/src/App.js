@@ -19,9 +19,9 @@ function App() {
   let navigate = useNavigate()
 
   const getThemePark = async () => {
-    //const result = await axios.get(`${BASE_URL}/theme-parks`)
-    //console.log(result)
-    // setThemeParks(result)   
+    const result = await axios.get(`${BASE_URL}/theme-parks`)
+    console.log(result)
+    setThemeParks(result)   
     //setThemeParks(TPData)
   }
 
