@@ -47,12 +47,12 @@ npm i nodemon
 ```
 
 - [x] gitignore /node_modules .DS_Store
-- [ ] Create boiler plate for ./db/index.js
+- [x] Create boiler plate for ./db/index.js
     - PORT = 3001
 - [x] Create Schema --> ./models/model1.js
 - [x] Create Model --> ./models/index.js
 - [x] Create Seed --> /seed/{models1.js models2.js}
-- [ ] Connect Server to MongoDb --> server.js
+- [x] Connect Server to MongoDb --> server.js
 - [x] Create Controllers --> ./controllers/controller1.js
 - [x] Create Routes --> routes/index.js
 - [ ] Deploy the MongoDB Database with Atlas
