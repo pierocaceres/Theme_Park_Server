@@ -13,7 +13,7 @@ function Home(props) {
                 <h2>Theme Parks</h2>
                 <div className='container-grid'>
                     {props.themeParks.map((themePark) => (
-                        <ThemePark 
+                        <ThemePark key={themePark._id}
                             image={themePark.image}
                             name={themePark.name}
                             onClick={() => navigate(`/themeparks/${themePark.name}`)}

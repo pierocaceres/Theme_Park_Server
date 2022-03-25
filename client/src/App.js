@@ -2,11 +2,12 @@ import './style/App.css';
 import { Routes, Route, useNavigate } from 'react-router-dom'
 import Navigation from './components/Navigation'
 import RollerCoaster from './components/RollerCoaster';
-import Home from './pages/Home'
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import TPData from './data/themeParkData'
 import RCData from './data/rollerCoasterData'
+import Home from './pages/Home'
+import RollerCoastersPage from './pages/RollerCoastersPage';  
 import ThemeParkPage from './pages/ThemeParkPage';
 import RollerCoasterPage from './pages/RollerCoasterPage';
 
@@ -20,15 +21,16 @@ function App() {
 
   const getThemePark = async () => {
     const result = await axios.get(`${BASE_URL}/theme-parks`)
-    console.log(result)
-    setThemeParks(result)   
+    console.log(result.data.themeParks)
+    setThemeParks(result.data.themeParks)   
     //setThemeParks(TPData)
   }
 
   const getRollerCoaster = async () => {
-    // const result = await axios.get(`${BASE_URL}/roller-coasters`)
-    // setRollerCoaster(result)//Look at result path
-    setRollerCoaster(RCData)
+    const result = await axios.get(`${BASE_URL}/roller-coasters`)
+    console.log(result.data.rollerCoasters)
+    setRollerCoaster(result.data.rollerCoasters)
+    // setRollerCoaster(RCData)
   }
 
   useEffect( () => {
@@ -45,17 +47,15 @@ function App() {
 
       <main>
         <Routes>
-          <Route exact path="/" element={<Home themeParks={themeParks} rollerCoasters={rollerCoasters} />}/>
-          <Route path="/rollercoasters" element={<RollerCoaster rollerCoasters={rollerCoasters}/>}/>
-          <Route exact path="/themeparks/:name" element={ <ThemeParkPage themeParks = {themeParks} />} />
-          <Route exact path="/rollercoasters/:name" element={ <RollerCoasterPage rollerCoasters={rollerCoasters} />
+          <Route path="/" element={<Home themeParks={themeParks} rollerCoasters={rollerCoasters} />}/>
+          {/* <Route path="/rollercoasters" element={<RollerCoaster rollerCoasters={rollerCoasters}/>}/> */}
+          <Route path="/rollercoasters" element={<RollerCoastersPage rollerCoasters={rollerCoasters}/>} />
+          <Route path="/themeparks/:name" element={ <ThemeParkPage themeParks = {themeParks} />} />
+          <Route path="/rollercoasters/:name" element={ <RollerCoasterPage rollerCoasters={rollerCoasters} />
           } />
         </Routes> 
        
       </main>   
-
-    
-
     </div>
   );
 }
