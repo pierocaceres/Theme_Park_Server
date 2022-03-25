@@ -18,7 +18,7 @@ function ThemePark(props) {
                  <h1>{themePark.name} </h1>
                  <h4>{themePark.location}</h4>
                  <p>{themePark.description}</p>
-                 <Review />
+                 <Review id={themePark._id}/>
             </div>
         </div>
     );

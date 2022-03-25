@@ -2,6 +2,8 @@ import React from 'react';
 import { useState } from 'react'
 import axios from 'axios'
 
+const BASE_URL = 'http://localhost:3001/api'
+
 function Review(props) {
     
     const [reviews, setReviews] = useState([])
@@ -13,6 +15,7 @@ function Review(props) {
             setReviews(newReviews)
             setSendReviews({comment: [...reviews]})
             console.log(sendReviews)
+            axios.put(`${BASE_URL}/theme-parks/${props.id}`, sendReviews)
         }
     }
 
